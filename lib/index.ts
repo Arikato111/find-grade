@@ -7,8 +7,4 @@ function findGrade(score: number) {
   return 0.5 * Math.round(grade / 0.5);
 }
 
-console.log(
-  findGrade(60)
-)
-
 export default findGrade;
